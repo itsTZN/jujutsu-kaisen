@@ -1,0 +1,66 @@
+@import url('https://www.dafontfree.io/one-piece-font/');
+p {
+    position:absolute;
+    top: 60%; left: 11%;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 0;
+    font-family: 'One Piece', sans-serif
+}
+h1 {
+    position:absolute;
+    top: 40%; left: 11%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+    font-family: 'One Piece', sans-serif
+}
+h2 {
+    position:absolute;
+    top: 50%; left: 11%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+    font-family: 'One Piece', sans-serif
+}
+h3 {
+    position:absolute;
+    top: 97.5%; left: 45%;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0;
+    font-family: 'One Piece', sans-serif
+}
+body {
+    background-image: url('Luffy.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
