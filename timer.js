@@ -1,9 +1,9 @@
 function nextDate(dayIndex) {
     let today = new Date();
     today.setUTCDate(today.getUTCDate() + (dayIndex - 1 - today.getUTCDay() + 7) % 7 + 1);
-    today.setUTCHours(2, 0, 0, 0);
+    today.setUTCHours(17, 0, 0, 0);
 
-    if (today.getUTCDay() === 0 && today.getUTCHours() < 2) {
+    if (today.getUTCDay() === 0 && today.getUTCHours() < 17) {
         today.setUTCDate(today.getUTCDate() - 7);
     }
 
@@ -11,7 +11,7 @@ function nextDate(dayIndex) {
     return today;
 }
 
-let countDownDate = nextDate(0);
+let countDownDate = nextDate(5);
 //var countDownDate = new Date("Aug 6, 2023 03:00:00").getTime();
 
 // Update the count down every 1 second
