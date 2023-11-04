@@ -64,3 +64,12 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+@font-face {
+    font-family: jujutsu kaisen;
+    src: url(Jujutsu\ Kaisen.ttf);
+  }
+  
+  div {
+    font-family: myFirstFont;
+  }
