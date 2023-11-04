@@ -67,9 +67,9 @@ a:active {
 
 @font-face {
     font-family: jujutsu kaisen;
-    src: url(Jujutsu\ Kaisen.ttf);
+    src: url(Jujutsu-Kaisen.ttf);
   }
   
   div {
-    font-family: myFirstFont;
+    font-family: jujutsu kaisen;
   }
