@@ -65,11 +65,7 @@ a:active {
     text-decoration: underline;
 }
 
-@font-face {
-    font-family: jujutsu kaisen;
-    src: url(Jujutsu-Kaisen.ttf);
-  }
-  
-  div {
-    font-family: jujutsu kaisen;
-  }
+@font-face { 
+    font-family: jujutsu kaisen; 
+    local: url(./Jujutsu-Kaisen.ttf); 
+}
